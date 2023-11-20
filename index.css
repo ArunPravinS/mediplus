@@ -12,13 +12,13 @@
  
 @keyframes animate__slideOutRight{
     0%,100%{
-        background-image: url("/image/successful-chiropractor-posing-medical-office-showing-thumbs-up.jpg");
+        background-image: url("image/successful-chiropractor-posing-medical-office-showing-thumbs-up.jpg");
     }
     33%{
-        background-image: url("/image/medium-shot-smiley-doctor-patient.jpg");
+        background-image: url("image/medium-shot-smiley-doctor-patient.jpg");
     }
     66%{
-        background-image: url("/image/happy-senior-man-handshaking-with-female-doctor-while-talking-lobby-clinic.jpg");
+        background-image: url("image/happy-senior-man-handshaking-with-female-doctor-while-talking-lobby-clinic.jpg");
     }
 }
 
@@ -285,7 +285,7 @@ p:hover::after{
     background-color: #1a76d1;
 }
 .section4{
-    background-image: url("/image/handshake-with-sky.jpg");
+    background-image: url("image/handshake-with-sky.jpg");
     width: 100%;
     
     z-index: -1;
