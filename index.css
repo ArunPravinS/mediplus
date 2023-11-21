@@ -273,6 +273,9 @@ p:hover::after{
     gap: 7px;
     
 }
+.circle i{
+    transform: translateY(9px);
+}
 .section3inside1{
     text-align: center;
 }
