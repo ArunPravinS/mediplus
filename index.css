@@ -177,6 +177,7 @@ p:hover::after{
     display: flex;
     flex-direction: column;
     gap: 12px;
+    justify-content: space-between;
 }
 .section1card1 h1{
     margin-block-start: 0em;
@@ -269,6 +270,7 @@ p:hover::after{
 .section3inside{
     display: flex;
     align-items: center;
+    gap: 7px;
     
 }
 .section3inside1{
@@ -278,11 +280,14 @@ p:hover::after{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.section3inside1 img:hover{
+/*.section3inside1 img:hover{
     height: 180px;
     width: 180px;
     border-radius: 90px;
     background-color: #1a76d1;
+}*/
+.section3inside1 p{
+    color: grey;
 }
 .section4{
     background-image: url("image/handshake-with-sky.jpg");
