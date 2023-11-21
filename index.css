@@ -767,7 +767,7 @@ footer .container{
     width: 25%;
     height: 3px;
     background:white;
-    bottom: 376px;
+    top:50px;
     left: 0;
     
     
@@ -944,6 +944,10 @@ footer .container{
         border-radius: 4px;
         transform: scaleX(1);
     }
+    .home{
+        transform: translateX(18%);
+    }
+    
 }
 @media only screen and (min-width:768px) and (max-width:1023px)
 {
