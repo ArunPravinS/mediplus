@@ -744,6 +744,12 @@ footer .container{
 .fosection4 i:hover{
     cursor: pointer;
 }
+.desktopheader{
+    position: sticky;
+    background-color: #fff;
+    top: 0;
+    z-index: 9;
+}
 @-webkit-keyframes scroll {
 	0% {
 		transform: translateX(0);
@@ -778,6 +784,10 @@ footer .container{
         padding-right: 15px;
         margin-left: auto;
         margin-right: auto;
+        
+    }
+    .menu-mob span{
+        display: none;
     }
 }
 @media only screen and (min-width:1024px){
@@ -788,5 +798,95 @@ footer .container{
         margin-left: auto;
         margin-right: auto;
     }
+    .menu-mob span{
+        display: none;
+    }
 
+}
+@media only screen and (min-width:320px) and (max-width:425px){
+    .headercenter{
+        display: none;
+    }
+    .appointment{
+        display: none;
+    }
+    .section1line1{
+        display: -webkit-inline-box;
+        grid-area: 0px;
+    }
+    .container{
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .section1paragraph{
+        display: block;
+    }
+    .section1cards{
+        display: grid;
+        grid-template-columns: 1fr;
+        transform: translateY(0px);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .section3inside{
+        flex-direction: column;
+    }
+    .section4inside{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .section5inside{
+        grid-template-columns: 1fr;
+    }
+    .section10inside{
+        grid-template-columns: 1fr;
+    }
+    .container2{
+        flex-direction: column;
+    }
+    .container1{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    footer .container{
+        flex-direction: column;
+    }
+    .hide{
+        display: none;
+    }
+    .slidershow{
+        width: 100%;
+        height: 300px;
+    }
+    .section1line1 , .section1line2{
+        font-size: 11px;
+    }
+    .section1 .container{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .menu-mob span{
+        width: 18px;
+        height: 2px;
+        display: block;
+        background: black;
+        margin-bottom: 5px;
+        transition: 0.3s ease;
+    }
+    .desktopheader{
+        position: sticky;
+        background-color: #fff;
+        top: 0;
+        z-index: 9;
+    }
+    .insidelogo h1{
+        margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+    }
 }
