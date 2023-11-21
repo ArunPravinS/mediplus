@@ -889,4 +889,8 @@ footer .container{
     margin-inline-end: 0px;
 
     }
+    .flex1 p, .flex2 p {
+        cursor: pointer;
+        display: block;
+    }
 }
