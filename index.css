@@ -79,7 +79,7 @@ body{
 .headerheadings p{
     position: relative;
 }
-.headerheadings p::after{
+.headerheadings p::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -758,6 +758,35 @@ footer .container{
     top: 0;
     z-index: 9;
 }
+.footersection1,.footersection2,.footersection3,.footersection4{
+    position: relative;
+}
+.footersection1 h4::before,.footersection2 h4::before,.footersection3 h4::before,.footersection4 h4::before{
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 3px;
+    background:white;
+    bottom: 376px;
+    left: 0;
+    
+    
+    
+    border-radius: 4px;
+    transform: scaleX(1);
+}
+.section5lefth1{
+    position: relative;
+}
+.section5lefth1::after{
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 3px;
+    background:blue;
+    bottom: -2px;
+    left: 0;
+}
 @-webkit-keyframes scroll {
 	0% {
 		transform: translateX(0);
@@ -901,6 +930,20 @@ footer .container{
         cursor: pointer;
         display: block;
     }
+    .footersection1 h4::before,.footersection2 h4::before,.footersection3 h4::before,.footersection4 h4::before{
+        content: "";
+        position: absolute;
+        width: 11%;
+        height: 3px;
+        background:white;
+        top: 53px;
+        left: 0;
+        
+        
+        
+        border-radius: 4px;
+        transform: scaleX(1);
+    }
 }
 @media only screen and (min-width:768px) and (max-width:1023px)
 {
@@ -940,6 +983,20 @@ footer .container{
     .flex1 p, .flex2 p {
         cursor: pointer;
         display: block;
+    }
+    .footersection1 h4::before,.footersection2 h4::before,.footersection3 h4::before,.footersection4 h4::before{
+        content: "";
+        position: absolute;
+        width: 11%;
+        height: 3px;
+        background:white;
+        top: 53px;
+        left: 0;
+        
+        
+        
+        border-radius: 4px;
+        transform: scaleX(1);
     }
     
 }
