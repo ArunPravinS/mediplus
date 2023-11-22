@@ -12,13 +12,13 @@
  
 @keyframes animate__slideOutRight{
     0%,100%{
-        background-image: url("image/successful-chiropractor-posing-medical-office-showing-thumbs-up.jpg");
+        background-image: url("image/slider1.jpg");
     }
     33%{
-        background-image: url("image/medium-shot-smiley-doctor-patient.jpg");
+        background-image: url("image/slider2.jpg");
     }
     66%{
-        background-image: url("image/happy-senior-man-handshaking-with-female-doctor-while-talking-lobby-clinic.jpg");
+        background-image: url("image/slider3.jpg");
     }
 }
 
@@ -301,16 +301,34 @@ p:hover::after{
     color: #888;
 }
 .section4{
-    background-image: url("image/handshake-with-sky.jpg");
+    background-image: url('image/fun-bg.jpg');
     width: 100%;
     
     z-index: -1;
+    position: relative;
     
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    height: 100%;
+
     
     opacity: 100%;
+}
+.section4::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #1a76d1;
+    opacity: .8;
+
+}
+.section4 .container{
+    position: relative;
+    z-index: 2;
 }
 .home1{
     display: flex;
@@ -380,6 +398,7 @@ p:hover::after{
 .section5content{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 12px;
 }
 .section5inside{
     display: grid;
@@ -396,9 +415,34 @@ p:hover::after{
 
 }
 .section6{
-    background-color: #408ad4;
+    background-image: url('image/call-bg.jpg');
+    position: relative;
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+.section6::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #1a76d1;
+    opacity: .8;
+    
+}
+.section6 .container{
+    position: relative;
+    z-index: 2;
 }
 .section6inside h1,.section6inside p{
     text-align: center;
@@ -527,8 +571,31 @@ p:hover::after{
     padding-top: 30px;
 }
 .section11{
-    background-color: #408ad4;
+    background-image: url('image/testi-bg.jpg');
+    height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     color: white;
+    position: relative;
+}
+.section11::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #1a76d1;
+    opacity: .8;
+
+}
+.section11 .container{
+    position: relative;
+    z-index: 2;
 }
 .section11 .container{
     padding-top: 30px;
@@ -611,6 +678,7 @@ p:hover::after{
     border-radius: 5px;
     color: black;
     padding: 15px;
+    
   }
   .section11card{
     display: flex;
@@ -671,7 +739,7 @@ gap: 60px;
   .container2{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 21px;
     justify-content: center;
     padding-bottom: 30px;
   }
@@ -773,7 +841,7 @@ footer .container{
     background-color: #1a76d1;
     color: white;
     border: 1px solid white;
-    box-shadow: 0px 1px 0px 0px white;
+    box-shadow: -1px 0px 0px 0px white;;
 
 }
 .fosection4 i{
@@ -833,6 +901,119 @@ footer .container{
 .fosection4{
     display: flex;
 }
+.section14{
+    background-image: url('image/testi-bg.jpg');
+    height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    color: white;
+    position: relative;
+}
+.section14::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #1a76d1;
+    opacity: .8;
+
+}
+.section14 .container{
+    position: relative;
+    z-index: 2;
+}
+.section14 .section2paragraph p{
+    color: white;
+    
+}
+.section14inside{
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.section14card1{
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+}
+.section14card1 img{
+    width: 100%;
+}
+.section14card1 p{
+    text-align: center;
+}
+.section14card1 h4{
+    text-align: center;
+    color: #888;
+}
+.section14card1::before{
+    position: absolute;
+    content: "Get Appointment";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background:white;
+    opacity: .8;
+    
+    transform: scaleX(0);
+
+}
+.section14card1:hover::before{
+    
+    
+    transform: scaleX(1);
+
+}
+.section14card1:hover{
+    transform: translateY(-10px);
+    transition: 1s ease-in-out;
+    perspective: 100%;
+}
+.middl {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .text {
+    
+    color: white;
+    
+    
+  }
+  .text button{
+    background-color: #408ad4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  .text button:hover{
+    background-color: black;
+  }
+  .section14card1:hover .middl {
+    opacity: 1;
+  }
+  .container21content1 p{
+    margin-block-start: 8px;
+    margin-block-end: 8px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 13px !important;
+  }
+
 @-webkit-keyframes scroll {
 	0% {
 		transform: translateX(0);
@@ -862,7 +1043,7 @@ footer .container{
 @media only screen and (min-width:1200px)
 {
     .container{
-        width: 1200px;
+        width: 1170px;
         padding-left: 15px;
         padding-right: 15px;
         margin-left: auto;
@@ -876,8 +1057,12 @@ footer .container{
         display: grid;
         grid-template-columns: .8fr 1.2fr 1fr .9fr;
     }
+    .section2center{
+        padding: 0 250px;
+    }
     
 }
+
 @media only screen and (min-width:1024px){
     .container{
         width: 970px;
@@ -893,10 +1078,16 @@ footer .container{
         display: grid;
         grid-template-columns: .8fr 1.2fr 1fr .9fr;
     }
+    .section2center{
+        padding: 0 250px;
+    }
     
 
 }
 @media only screen and (min-width:320px) and (max-width:767px){
+    .section14inside{
+        flex-direction: column;
+    }
     .headercenter{
         display: none;
     }
