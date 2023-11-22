@@ -1013,6 +1013,75 @@ footer .container{
     margin-inline-end: 0px;
     font-size: 13px !important;
   }
+  .forminside1 input {
+    width: 100%;
+    
+    height: 50px;
+    border: 1px solid #eee;
+    
+   
+    color: #555;
+    
+    margin-bottom: 8px;
+}
+textarea {
+    width: 100%;
+    
+    height: 200px;
+   
+    border-radius: 4px;
+}
+textarea {
+    color: #666;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 3px;
+    font-weight: 400;
+}
+.forminside1{
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+
+}
+.section15button{
+    padding: 10px;
+    background-color: #408ad4;
+    color: white;
+    border: none;
+}
+.section15button:hover{
+    cursor: pointer;
+    background-color: #555;
+    transition: .5s ease-in-out;
+}
+.form .button{
+    display: flex;
+    justify-content: space-between;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.form1{
+    display: flex;
+}
+.section15image img{
+   width: 100%;
+}
+.section15image{
+    width: 100%;
+}
+.section15{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footersection1,.footersection2,.footersection3,.footersection4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 
 @-webkit-keyframes scroll {
 	0% {
@@ -1195,7 +1264,15 @@ footer .container{
     .home{
         transform: translateX(18%);
     }
-    
+    .forminside1{
+        flex-direction: column;
+    }
+    .form .button{
+       flex-direction: column;
+    }
+    .form1{
+        flex-direction: column;
+    }
 }
 @media only screen and (min-width:768px) and (max-width:1023px)
 {
@@ -1205,6 +1282,9 @@ footer .container{
         padding-right: 15px;
         margin-left: auto;
         margin-right: auto;
+    }
+    .form1{
+        flex-direction: column;
     }
     .headercenter{
         display: none;
