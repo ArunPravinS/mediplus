@@ -738,9 +738,9 @@ gap: 60px;
   }
   .container2{
     display: flex;
-    align-items: center;
-    gap: 21px;
-    justify-content: center;
+    
+    
+    justify-content: space-evenly;
     padding-bottom: 30px;
   }
   .container21button button:hover{
