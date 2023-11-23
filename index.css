@@ -956,6 +956,11 @@ footer .container{
     color: white;
     
 }
+.forminside2 input::placeholder , .forminside3 input::placeholder , textarea::placeholder{
+    transform: translateX(10px);
+    
+}
+
 .section14inside{
     display: flex;
     gap: 20px;
@@ -1091,6 +1096,9 @@ textarea {
 }
 .form1{
     display: flex;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .section15image img{
    width: 100%;
@@ -1299,6 +1307,13 @@ textarea {
     .form1{
         flex-direction: column;
     }
+    .a37{
+        transform: translateX(37px);
+
+    }
+    .a38{
+        transform: translateX(38px);
+    }
 }
 @media only screen and (min-width:768px) and (max-width:1023px)
 {
@@ -1309,8 +1324,11 @@ textarea {
         margin-left: auto;
         margin-right: auto;
     }
+
     .form1{
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
     }
     .headercenter{
         display: none;
