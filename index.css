@@ -187,7 +187,15 @@ p:hover::after{
     gap: 12px;
     justify-content: space-between;
 }
+.section1card1 p{
+    font-size: 13px !important;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 .section1card1 h1{
+    font-size: 20px !important;
     margin-block-start: 0em;
     margin-block-end: 0em;
     margin-inline-start: 0px;
@@ -551,6 +559,15 @@ p:hover::after{
     align-items: flex-start;
 
 }
+.section10inside1 img{
+    width: 30px;
+}
+.section10insideflex h2{
+    font-size: 20px !important;
+}
+.section10insideflex p{
+    font-size: 13px !important;
+}
 .flex{
     display: flex;
     flex-direction: column;
@@ -704,6 +721,9 @@ p:hover::after{
   .container21color{
     display: flex;
   }
+  .trans img{
+    transform: translateX(2.5px);
+  }
   .container21color h1{
     margin-block-start: 0em;
     margin-block-end: 0em;
@@ -831,13 +851,15 @@ footer .container{
     cursor: pointer;
 }
 .desktopheader{
-    position: sticky;
+    position: fixed;
+    width: 100%;
     background-color: #fff;
     top: 0;
     z-index: 9;
 }
 .fosection4 input{
     padding: 5px;
+    height: 30px;
     background-color: #1a76d1;
     color: white;
     border: 1px solid white;
@@ -846,7 +868,8 @@ footer .container{
 }
 .fosection4 i{
     background-color: #fff;
-    padding: 5px;
+    font-size: 20px;
+    padding: 12px;
 }
 .footersection1,.footersection2,.footersection3,.footersection4{
     position: relative;
@@ -900,6 +923,7 @@ footer .container{
 }
 .fosection4{
     display: flex;
+    align-items: center;
 }
 .section14{
     background-image: url('image/testi-bg.jpg');
@@ -1037,6 +1061,7 @@ textarea {
     border-radius: 3px;
     padding: 3px;
     font-weight: 400;
+    text-transform: capitalize;
 }
 .forminside1{
     display: flex;
@@ -1124,7 +1149,7 @@ textarea {
     }
     footer .container{
         display: grid;
-        grid-template-columns: .8fr 1.2fr 1fr .9fr;
+        grid-template-columns: .8fr 1fr 1fr 1fr;
     }
     .section2center{
         padding: 0 250px;
@@ -1231,7 +1256,8 @@ textarea {
         transition: 0.3s ease;
     }
     .desktopheader{
-        position: sticky;
+        position: fixed;
+        width: 100%;
         background-color: #fff;
         top: 0;
         z-index: 9;
@@ -1301,9 +1327,10 @@ textarea {
         transition: 0.3s ease;
     }
     .desktopheader{
-        position: sticky;
+        position: fixed;
         background-color: #fff;
         top: 0;
+        width: 100%;
         z-index: 9;
     }
     .section5inside{
