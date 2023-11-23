@@ -758,6 +758,7 @@ gap: 60px;
   }
   .container2{
     display: flex;
+    gap: 5px;
     
     
     justify-content: space-evenly;
