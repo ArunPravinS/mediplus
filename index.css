@@ -741,8 +741,9 @@ gap: 60px;
     background-color: #1a76d1;
     color: white;
     font-weight: 600;
-    padding: 15px;
-    font-size: 20px;
+    padding: 7px;
+    font-size: 15px;
+    width: 250px;
   }
   .container21button{
     text-align: center;
